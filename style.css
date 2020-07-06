@@ -1,0 +1,59 @@
+.container{
+    margin-bottom: 100px;
+}
+.buy-btn{
+    color: white;
+    background-color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.img-bx{
+    padding: 25px 45px;
+    box-shadow: 0 0 15px #DEDEDE;
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.br-1{
+    border-radius: 0 15px 0 15px;
+}
+.br-2{
+    border-radius:  15px 0 15px 0;
+}
+hr{
+    width: 70px;
+    margin: 15px auto;
+    background-image: linear-gradient(#FF9C35,#FFD019);
+    height: 5px;
+    border-radius: 5px;
+}
+span{
+    font-size: 25px;
+    color:#FF9D00;
+}
+button,img{
+    transition: all .5s ease-in-out;
+}
+button:hover,
+img:hover{
+    transform: scale(1.1);
+}
+.carousel-indicators li{
+    transition: all .2s ease-in-out;
+    width: 10px;
+    height: 5px;
+    background-color:#FF9D00;
+    border: none;
+    border-radius: 15px;
+}
+.carousel-indicators .active{
+    width: 25px;
+}
